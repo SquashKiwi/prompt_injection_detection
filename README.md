@@ -3,6 +3,9 @@
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<a target="_blank" href="https://colab.research.google.com/github/https://colab.research.google.com/drive/1KKSEmB7aV2VmRNNYrsNFIUaF8Sjy9jt-?usp=sharing">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 **A deep learning-based project for detecting malicious prompt injection attempts in text.**
 
@@ -43,12 +46,7 @@ Here's why prompt injection detection is more important now than ever before:
 - Scikit-learn
 - Matplotlib
 - Seaborn
-
-You can install the necessary libraries using pip:
-
-```bash
-pip install tensorflow pandas numpy scikit-learn matplotlib seaborn
-```
+- NLTK
 
 Installation
 Clone the repository:
@@ -66,10 +64,10 @@ source venv/bin/activate # On Linux/macOS
 venv\Scripts\activate # On Windows
 ```
 
-Install dependencies (if you skipped the global installation):
+Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install tensorflow pandas numpy scikit-learn matplotlib seaborn nltk
 ```
 
 ## License
@@ -78,4 +76,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## Contributing
 
-Contributions to this project are welcome! Please feel free to submit pull requests with bug fixes, new features, or improvements. Please follow standard GitHub practices for contributing.
+Contributions to this project are welcome! Please feel free to submit pull requests with bug fixes, new features, or improvements.
