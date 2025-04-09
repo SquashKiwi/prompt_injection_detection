@@ -9,6 +9,8 @@
 
 **A deep learning-based project for detecting malicious prompt injection attempts in text.**
 
+All metrics are included in the Colab link and Jupyter notebook.
+
 ## Overview
 
 This project implements a text classification model using TensorFlow and Keras to identify whether a given text input is a benign user prompt or an attempt to perform a prompt injection attack. Prompt injection is a security vulnerability that can allow malicious actors to manipulate the behavior of large language models (LLMs) by crafting specific input prompts that override intended instructions or extract sensitive information.
@@ -69,6 +71,10 @@ Install dependencies:
 ```bash
 pip install tensorflow pandas numpy scikit-learn matplotlib seaborn nltk
 ```
+
+## Evaluation
+
+![corellation matrix](/assets/corellation_matrix.png)
 
 ## License
 
